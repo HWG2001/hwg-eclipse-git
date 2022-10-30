@@ -4,7 +4,7 @@ public class Singleton {
 	private static Singleton uniqueInstance;
 	// other useful instance variables here
 	private Singleton() {
-		System.out.println("hessah");
+		System.out.println("Wadha");
 		
 	}
 	public static Singleton getInstance(){
@@ -15,7 +15,5 @@ public class Singleton {
     
 	return uniqueInstance;
 	}
-	// other useful methods here
-	}
 
-
+}
