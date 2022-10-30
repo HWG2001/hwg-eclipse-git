@@ -1,10 +1,10 @@
-package hwg2001;
+package hwg2;
 
 public class Singleton {
 	private static Singleton uniqueInstance;
 	// other useful instance variables here
 	private Singleton() {
-		System.out.println("Ghada");
+		System.out.println("Wadha");
 		
 	}
 	public static Singleton getInstance(){
@@ -15,4 +15,5 @@ public class Singleton {
     
 	return uniqueInstance;
 	}
+
 }
