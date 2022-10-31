@@ -11,6 +11,7 @@ public class Singleton {
 	if (uniqueInstance == null){
 	uniqueInstance = new Singleton();
 	
+	
 	}
     
 	return uniqueInstance;
