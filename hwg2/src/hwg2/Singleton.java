@@ -9,7 +9,7 @@ public class Singleton {
 	}
 	public static Singleton getInstance(){
 	if (uniqueInstance == null){
-	uniqueInstance = new Singleton();
+	uniqueInstance =  new Singleton();
 	
 	
 	}
